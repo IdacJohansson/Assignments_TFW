@@ -1,0 +1,24 @@
+
+/*general*/
+body {
+    background-color: lightgray; 
+    font-family: 'Courier New', Courier, monospace;  
+    color: rgb(62, 60, 60);
+  }
+
+/*navigation*/
+
+
+/*index*/
+
+.container{
+  text-align: center;     
+  position: absolute;     
+  top: 40%;     
+  bottom: 50%;     
+  width: 100%;
+}
+
+/*tags*/
+
+/*linkst*/
