@@ -1,24 +1,39 @@
-
 /*general*/
 body {
-    background-color: lightgray; 
-    font-family: 'Courier New', Courier, monospace;  
-    color: rgb(62, 60, 60);
-  }
+  background-color: lightgray;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(62, 60, 60);
+}
 
-/*navigation*/
-
+footer{
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(210, 192, 145);
+  color: white;
+}
 
 /*index*/
 
-.container{
-  text-align: center;     
-  position: absolute;     
-  top: 40%;     
-  bottom: 50%;     
+.container {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  bottom: 50%;
   width: 100%;
 }
 
 /*tags*/
 
-/*linkst*/
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.th,
+td {
+  background-color: rgb(210, 192, 145);
+  width: 30%;
+}
+.tableWithSpace {
+  width: 70%;
+}
