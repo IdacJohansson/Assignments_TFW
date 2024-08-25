@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/lesson01/styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/lesson01/styles/styles.css" />
     <title>Tags</title>
-</head>
-<body>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="tags.html">HTML Tags</a>
-    <a href="links.html">Links</a>
-</nav>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="tags.html">HTML Tags</a>
+      <a href="inputs.html">HTML Input</a>
+      <a href="links.html">Links</a>
+    </nav>
 
     <div>
-        <p>My personal tag-guide</p>
+      <p>My personal tag guide to help me remember different tags</p>
     </div>
 
-    <hr>
+    <hr />
+    <!--PARAGRAPHS-->
     <h3 style="color: black">Paragraphs and TAGs</h3>
 
     <p>I am a paragraph</p>
@@ -33,79 +34,144 @@
 
     <p>I am a <i>paragraph</i> with a i-tag</p>
 
+    <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>
 
-
-
-    <hr>
+    <hr />
+    <!--TEXTS-->
     <h3 style="color: black">Texts</h3>
 
     <section>
-        <h4>I am a section </h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, magnam eos. Minima tempora voluptates ea fuga consectetur, a delectus itaque odit illo, fugiat qui amet vero in ducimus dolorum quisquam.</p>
+      <h4>I am a section</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, magnam
+        eos. Minima tempora voluptates ea fuga consectetur, a delectus itaque
+        odit illo, fugiat qui amet vero in ducimus dolorum quisquam.
+      </p>
     </section>
     <section>
-        <h4>I am a section </h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, magnam eos. Minima tempora voluptates ea fuga consectetur, a delectus itaque odit illo, fugiat qui amet vero in ducimus dolorum quisquam.</p>
+      <h4>I am a section</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, magnam
+        eos. Minima tempora voluptates ea fuga consectetur, a delectus itaque
+        odit illo, fugiat qui amet vero in ducimus dolorum quisquam.
+      </p>
     </section>
- 
-    <p>A span tag <span style="color: deeppink;">can be useful if you want to mark up a part of a text </span> its a great inline container.</p>
 
-
-
-
-
+    <p>
+      A span tag
+      <span style="color: deeppink"
+        >can be useful if you want to mark up a part of a text
+      </span>
+      its a great inline container.
+    </p>
 
     <div class="headings">
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <h5>Heading 5</h5>
-        <h6>Heading 6</h6>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
     </div>
-    <hr>
+    <hr />
     <div>
-        <h3 style="color: black">Lists</h3>
-        <p>Unordered Lists</p>
-        <ul>
-            <li>Item A</li>
-            <li>Item B</li>
-            <li>Item C</li>
-        </ul>
+      <h3 style="color: black">Lists</h3>
+      <p>Unordered Lists</p>
+      <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+      </ul>
     </div>
-    <br>
+    <br />
+    <!--Lists-->
     <div>
-        <p>Ordered Lists</p>
-        <ol>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-        </ol>
+      <p>Ordered Lists</p>
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
     </div>
-    <br>
+    <br />
     <div>
-        <p>Nested Lists</p>
-        <ul>
-            <li>Item A</li>
-            <li>Item B
-                <ul>
-                    <li>Subitem B.1</li>
-                    <li>Subitem B.2</li>
-                </ul></li>
-            <li>Item C</li>
-        </ul>
+      <p>Nested Lists</p>
+      <ul>
+        <li>Item A</li>
+        <li>
+          Item B
+          <ul>
+            <li>Subitem B.1</li>
+            <li>Subitem B.2</li>
+          </ul>
+        </li>
+        <li>Item C</li>
+      </ul>
     </div>
-    <hr>
+    <hr />
+    <!--TABLES-->
     <div>
-        <h3 style="color: black">Tables</h3>
-    </div>
-    <hr>
-    <div>
-        <h3 style="color: black">Image</h3>
-        <img src="/lesson01/images/profile_pic.png" alt="deer" width="300" height="400">
-    </div>
+      <h3 style="color: black">Tables</h3>
 
-    
-
-</body>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Country</th>
+          <th>Favorite food</th>
+        </tr>
+        <tr>
+          <td>Maja</td>
+          <td>Sweden</td>
+          <td>Meatballs</td>
+        </tr>
+        <tr>
+          <td>Martin</td>
+          <td>Norge</td>
+          <td>Pizza</td>
+        </tr>
+        <tr>
+          <td>Morgan</td>
+          <td>Finland</td>
+          <td>Tacos</td>
+        </tr>
+      </table>
+      <br />
+      <table class="tableWithSpace">
+        <tr>
+          <th>Name</th>
+          <th>Country</th>
+          <th>Favorite food</th>
+        </tr>
+        <tr>
+          <td>Maja</td>
+          <td>Sweden</td>
+          <td>Meatballs</td>
+        </tr>
+        <tr>
+          <td>Martin</td>
+          <td>Norge</td>
+          <td>Pizza</td>
+        </tr>
+        <tr>
+          <td>Morgan</td>
+          <td>Finland</td>
+          <td>Tacos</td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <div>
+      <h3 style="color: black">Image</h3>
+      <img
+        src="/lesson01/images/profile_pic.png"
+        alt="deer"
+        width="300"
+        height="400"
+      />
+    </div>
+    <hr />
+    <footer>
+      <p>This is a Footer, you can add more styles in style.css</p>
+    </footer>
+  </body>
 </html>
