@@ -1,0 +1,56 @@
+/*GLOBAL*/
+
+body {
+  background-image: url();
+}
+
+header {
+  font-size: 40px;
+  background-color: #3e433f;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+/*Navigation*/
+
+nav {
+  background-color: #b08c79;
+  font-size: 20px;
+  overflow: hidden;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+}
+nav a:hover {
+  background-color: #d4d4d4;
+  opacity: 0.2;
+  color: black;
+  padding: 14px 20px;
+  border-radius: 50%;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #b08c79;
+  color: #ffffff;
+}
+
+/*Index*/
+/*Experience*/
+/*Contact*/
