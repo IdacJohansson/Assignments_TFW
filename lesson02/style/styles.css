@@ -1,7 +1,11 @@
 /*GLOBAL*/
 
 body {
-  background-image: url();
+  background-image: url(../images/moon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 header {
@@ -11,16 +15,24 @@ header {
   text-align: center;
   padding: 60px;
 }
+/*Footer*/
+
+footer {
+  background-color: #b08c79;
+  color: #ffffff;
+  padding: 3px;
+  text-align: center;
+  display: block;
+}
 
 /*Navigation*/
 
 nav {
   background-color: #b08c79;
   font-size: 20px;
-  overflow: hidden;
   position: sticky;
   position: -webkit-sticky;
-  top: 0;
+  overflow: hidden;
 }
 
 ul {
@@ -38,19 +50,67 @@ li a {
 }
 nav a:hover {
   background-color: #d4d4d4;
-  opacity: 0.2;
   color: black;
-  padding: 14px 20px;
-  border-radius: 50%;
-}
-
-/*Footer*/
-
-footer {
-  background-color: #b08c79;
-  color: #ffffff;
 }
 
 /*Index*/
+
+.img-florence {
+  border-width: 3px;
+  border-color: #3e433f;
+  border-style: solid;
+  width: 400px;
+  box-shadow: 10px 10px 20px;
+  margin-top: 2%;
+  padding: 5%;
+  margin-inline-start: 50px;
+}
+
+#last-paragraph {
+  color: rgb(215, 110, 127);
+}
+.two-columns {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 2px;
+}
+
+.three-columns {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 0px;
+  column-gap: 0px;
+  margin-inline-start: 50px;
+}
 /*Experience*/
+.p-green {
+  color: rgba(26, 157, 50, 0.657);
+  font-weight: 900;
+}
 /*Contact*/
+.p-brown {
+  color: brown;
+}
+.contact-form {
+  background-color: rgb(215, 110, 127);
+  color: white;
+  width: 500px;
+  height: 300px;
+  border-radius: 10%;
+  margin-inline-start: 50px;
+}
+input,
+label {
+  margin-inline-start: 20px;
+}
+.four-columns {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 0px;
+  column-gap: 30px;
+}
+.img-plane {
+  width: 200px;
+  margin-inline-start: 240px;
+  margin-top: -10%;
+}
