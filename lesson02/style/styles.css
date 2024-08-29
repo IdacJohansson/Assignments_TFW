@@ -15,6 +15,11 @@ header {
   text-align: center;
   padding: 60px;
 }
+
+section {
+  max-width: 400px;
+}
+
 /*Footer*/
 
 footer {
@@ -65,6 +70,9 @@ nav a:hover {
   padding: 5%;
   margin-inline-start: 50px;
 }
+.text-right-picture {
+  max-width: 800px;
+}
 
 #last-paragraph {
   color: rgb(215, 110, 127);
@@ -90,6 +98,7 @@ nav a:hover {
 /*Contact*/
 .p-brown {
   color: brown;
+  max-width: 700px;
 }
 .contact-form {
   background-color: rgb(215, 110, 127);
@@ -98,6 +107,7 @@ nav a:hover {
   height: 300px;
   border-radius: 10%;
   margin-inline-start: 50px;
+  margin-top: 50px;
 }
 input,
 label {
