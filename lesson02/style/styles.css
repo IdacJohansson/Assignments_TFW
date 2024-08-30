@@ -16,10 +16,6 @@ header {
   padding: 60px;
 }
 
-section {
-  max-width: 400px;
-}
-
 /*Footer*/
 
 footer {
@@ -71,7 +67,7 @@ nav a:hover {
   margin-inline-start: 50px;
 }
 .text-right-picture {
-  max-width: 800px;
+  max-width: 700px;
 }
 
 #last-paragraph {
@@ -87,8 +83,9 @@ nav a:hover {
   display: grid;
   grid-template-columns: auto auto auto;
   row-gap: 0px;
-  column-gap: 0px;
+  column-gap: 40px;
   margin-inline-start: 50px;
+  max-width: 80%;
 }
 /*Experience*/
 .p-green {
@@ -120,7 +117,8 @@ label {
   column-gap: 30px;
 }
 .img-plane {
-  width: 200px;
+  max-width: 40%;
+  height: auto;
   margin-inline-start: 240px;
   margin-top: -10%;
 }
